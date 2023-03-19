@@ -1,5 +1,5 @@
 import { apiSlice } from '../api/apiSlice';
-import authSlice from './authSlice';
+import { userLoggedIn } from './authSlice';
 
 export const authApi = apiSlice.injectEndpoints({
 	endpoints: (builder) => ({
@@ -22,7 +22,7 @@ export const authApi = apiSlice.injectEndpoints({
 					);
 
 					dispatch(
-						authSlice.actions.userLoggedIn({
+						userLoggedIn({
 							accessToken: data.accessToken,
 							user: data.user,
 						})
@@ -51,7 +51,7 @@ export const authApi = apiSlice.injectEndpoints({
 					);
 
 					dispatch(
-						authSlice.actions.userLoggedIn({
+						userLoggedIn({
 							accessToken: data.accessToken,
 							user: data.user,
 						})

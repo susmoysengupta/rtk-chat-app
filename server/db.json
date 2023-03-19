@@ -23,6 +23,30 @@
       "password": "$2a$10$0BUdqRScK5phj/72AwG4R.61aNDFrVT/WHuUpatLFzID3gwBeAx3.",
       "name": "Susmoy Sen Gupta",
       "id": 4
+    },
+    {
+      "email": "test.cse@gmail.com",
+      "password": "$2a$10$q6ajZNAd6AmR7EmlOfv7ReRucvoIBz9qO8IAObAwMq43BTcOeye8e",
+      "name": "Test",
+      "id": 5
+    },
+    {
+      "email": "fydydyfove@mailinator.com",
+      "password": "$2a$10$mJQL/kG9lHLeVHfR6k.7hOjFgnyVhVbN9mZomhcoo5JueHKDYxPyC",
+      "name": "Ignatius Clemons",
+      "id": 6
+    },
+    {
+      "email": "zyrinony@mailinator.com",
+      "password": "$2a$10$MuLb.OvokS5gmtZtVI2oZOsYvLGbCaR4L/iQw0fGO9rIBNjb4VCsi",
+      "name": "Cadman Pruitt",
+      "id": 7
+    },
+    {
+      "email": "koxucyfe@mailinator.com",
+      "password": "$2a$10$Nz4AvQde6sRm8NMmlGvuueta3mS8culBb.6u9XwjJHAroOqNn.p3y",
+      "name": "Jenette Barrera",
+      "id": 8
     }
   ],
   "conversations": [
