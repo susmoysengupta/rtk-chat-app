@@ -17,18 +17,15 @@ export default function ChatBody() {
 
 	let content = null;
 	if (isLoading) {
-		content = <div>Loading...</div>;
+		content = <div className="m-4 text-gray-500">Loading...</div>;
 	} else if (isError) {
 		content = <Error message={error?.data} />;
 	} else if (messages?.length === 0) {
-		content = <div>No messages...</div>;
+		content = <div className="m-4 text-gray-500">No messages...</div>;
 	} else if (messages?.length > 0) {
 		content = (
 			<>
-				<ChatHead
-					avatar="https://cdn.pixabay.com/photo/2018/01/15/07/51/woman-3083383__340.jpg"
-					name="Akash Ahmed"
-				/>
+				<ChatHead message={messages[0]} />
 				<Messages messages={messages} />
 				<Options />
 			</>
