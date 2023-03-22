@@ -1,7 +1,12 @@
 import { apiSlice } from '../api/apiSlice';
 
-const messagesApi = apiSlice.injectEndpoints({
+export const messagesApi = apiSlice.injectEndpoints({
 	endpoints: (builder) => ({
-		// messages endpoints here...
+		getMessages: builder.query({
+			query: (conversationID) =>
+				`/messages?conversationId=${conversationID}&_sort=timestamp&_order=desc&_page=1&_limit=${process.env.REACT_APP_MESSAGES_PER_PAGE}`,
+		}),
 	}),
 });
+
+export const { useGetMessagesQuery } = messagesApi;
