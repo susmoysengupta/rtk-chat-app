@@ -56,7 +56,7 @@ export const conversationsApi = apiSlice.injectEndpoints({
 						arg.sender,
 						(draft) => {
 							const draftConversation = draft.find(
-								(conversation) => +conversation.id === arg.id
+								(conversation) => conversation.id == arg.id
 							);
 							draftConversation.message = arg.body.message;
 							draftConversation.timestamp = arg.body.timestamp;
@@ -74,7 +74,8 @@ export const conversationsApi = apiSlice.injectEndpoints({
 						const receiverUser = users.find(
 							(user) => user.email !== arg.sender
 						);
-						dispatch(
+
+						const response = await dispatch(
 							messagesApi.endpoints.addMessage.initiate({
 								conversationId: conversation.data.id,
 								sender: senderUser,
@@ -82,6 +83,15 @@ export const conversationsApi = apiSlice.injectEndpoints({
 								message: arg.body.message,
 								timestamp: arg.body.timestamp,
 							})
+						).unwrap();
+
+						// pessimistic cache update
+						dispatch(
+							apiSlice.util.updateQueryData(
+								'getMessages',
+								response.conversationId.toString(),
+								(draft) => draft.push(response)
+							)
 						);
 					}
 				} catch (err) {
