@@ -55,7 +55,8 @@ export default function Modal({ open, control }) {
 		if (isAddConversationSuccess || isEditConversationSuccess) {
 			control();
 		}
-	}, [isAddConversationSuccess, isEditConversationSuccess, control]);
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [isAddConversationSuccess, isEditConversationSuccess]);
 
 	const debounceHandler = (fn, delay) => {
 		let timeoutId;
@@ -81,6 +82,7 @@ export default function Modal({ open, control }) {
 		if (conversation?.length) {
 			editConversation({
 				id: conversation[0].id,
+				sender: loggedInUserEmail,
 				body: {
 					participants: `${loggedInUserEmail}-${to}`,
 					users: [loggedInUser, participant[0]],
@@ -90,10 +92,13 @@ export default function Modal({ open, control }) {
 			});
 		} else if (conversation?.length === 0) {
 			addConversation({
-				participants: `${loggedInUserEmail}-${to}`,
-				users: [loggedInUser, participant[0]],
-				message,
-				timestamp: new Date().getTime(),
+				sender: loggedInUserEmail,
+				body: {
+					participants: `${loggedInUserEmail}-${to}`,
+					users: [loggedInUser, participant[0]],
+					message,
+					timestamp: new Date().getTime(),
+				},
 			});
 		}
 	};

@@ -1,4 +1,5 @@
 import { apiSlice } from '../api/apiSlice';
+import { messagesApi } from '../messages/messagesApi';
 
 export const conversationsApi = apiSlice.injectEndpoints({
 	endpoints: (builder) => ({
@@ -11,11 +12,32 @@ export const conversationsApi = apiSlice.injectEndpoints({
 				`/conversations?participants_like=${userEmail}-${partnerEmail}&&participants_like=${partnerEmail}-${userEmail}`,
 		}),
 		addConversation: builder.mutation({
-			query: (body) => ({
+			query: ({ body }) => ({
 				url: '/conversations',
 				method: 'POST',
 				body,
 			}),
+			async onQueryStarted(arg, { dispatch, queryFulfilled }) {
+				const conversation = await queryFulfilled;
+				if (conversation?.data?.id) {
+					const users = arg.body.users;
+					const senderUser = users.find(
+						(user) => user.email === arg.sender
+					);
+					const receiverUser = users.find(
+						(user) => user.email !== arg.sender
+					);
+					dispatch(
+						messagesApi.endpoints.addMessage.initiate({
+							conversationId: conversation.data.id,
+							sender: senderUser,
+							receiver: receiverUser,
+							message: arg.body.message,
+							timestamp: arg.body.timestamp,
+						})
+					);
+				}
+			},
 		}),
 		editConversation: builder.mutation({
 			query: ({ id, body }) => ({
@@ -23,6 +45,28 @@ export const conversationsApi = apiSlice.injectEndpoints({
 				method: 'PATCH',
 				body,
 			}),
+
+			async onQueryStarted(arg, { dispatch, queryFulfilled }) {
+				const conversation = await queryFulfilled;
+				if (conversation?.data?.id) {
+					const users = arg.body.users;
+					const senderUser = users.find(
+						(user) => user.email === arg.sender
+					);
+					const receiverUser = users.find(
+						(user) => user.email !== arg.sender
+					);
+					dispatch(
+						messagesApi.endpoints.addMessage.initiate({
+							conversationId: conversation.data.id,
+							sender: senderUser,
+							receiver: receiverUser,
+							message: arg.body.message,
+							timestamp: arg.body.timestamp,
+						})
+					);
+				}
+			},
 		}),
 	}),
 });
