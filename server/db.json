@@ -23,6 +23,78 @@
       "password": "$2a$10$0BUdqRScK5phj/72AwG4R.61aNDFrVT/WHuUpatLFzID3gwBeAx3.",
       "name": "Susmoy Sen Gupta",
       "id": 4
+    },
+    {
+      "email": "cysynigaju@mailinator.com",
+      "password": "$2a$10$5vFIEVnDko6SeGHFXEcy/.SKUmJGsjwE2QgNdYkStbP3YQ9L2XwQi",
+      "name": "Ryder Goodwin",
+      "id": 5
+    },
+    {
+      "email": "ravyhorile@mailinator.com",
+      "password": "$2a$10$vPVIREcQfBruBvYWlPLEnefaQrs9d6RM649naElb07fDhzAjmYlg6",
+      "name": "Katelyn Oliver",
+      "id": 6
+    },
+    {
+      "email": "rufu@mailinator.com",
+      "password": "$2a$10$Ydg7GXumFCe4GpBE7jMlsuJHQUxhT26mMMM1oLA6t8NwKsHyralyq",
+      "name": "Brent Acevedo",
+      "id": 7
+    },
+    {
+      "email": "sajebo@mailinator.com",
+      "password": "$2a$10$II3JfLRO9nr9vzKqR05tQu2MpY6RQzWNdRU6DVRg.oTw9NueGLApW",
+      "name": "Libby Kline",
+      "id": 8
+    },
+    {
+      "email": "cudajin@mailinator.com",
+      "password": "$2a$10$1jKk4hjCAbncdkHc9lkexe5tr3XAOX/s8vkxDNd5Pa41GIfcTjL9u",
+      "name": "Brendan Silva",
+      "id": 9
+    },
+    {
+      "email": "vibekoxi@mailinator.com",
+      "password": "$2a$10$VbrLoWKsOhHXa2VAYHwikeBIDTXfoKOXD3sNH/NpMGqblPKA639EC",
+      "name": "Hope Kirby",
+      "id": 10
+    },
+    {
+      "email": "gomodiwaq@mailinator.com",
+      "password": "$2a$10$cPuJjDRoPuklOo0YgZccaelOSWeepeH10BB3Rpxu7nLe826bnbkQm",
+      "name": "Cassidy Mcmillan",
+      "id": 11
+    },
+    {
+      "email": "fikil@mailinator.com",
+      "password": "$2a$10$Jd22CNW.Goy4OXH0Szd9ieqePcFeots0C0lvmgeSoRyvN23EOuLs6",
+      "name": "Justin Grimes",
+      "id": 12
+    },
+    {
+      "email": "lacog@mailinator.com",
+      "password": "$2a$10$4YWwlLZ3tBXbtLyzmybK1uUUvgREJfseCcEP2JabyYIBIDEkvI2kG",
+      "name": "Liberty Herring",
+      "id": 13
+    },
+    {
+      "email": "cekahikoly@mailinator.com",
+      "password": "$2a$10$dL7e9vofpoe2bU4OYuqi8OPlfexnDz2CAFIScekSdZpgbK.7gToSO",
+      "name": "Raphael Whitley",
+      "id": 14
+    },
+    {
+      "email": "dezahit@mailinator.com",
+      "password": "$2a$10$/k43cbNa6oFfIpcRLmBENeXRrkLS.bs1FUrhtah..WxUFijF9tlMm",
+      "name": "Keaton Oneill",
+      "id": 15
+    },
+    {
+      "email": "qumyzutub@mailinator.com",
+      "password": "$2a$10$NbR6oS6/3BqeE0MCuX9Y5uv0NCBH2kPur/CYPvzT4Z0yL1bTf.6Wi",
+      "name": "Hadley Wiley",
+      "id": 16
     }
   ],
   "conversations": [
@@ -60,9 +132,237 @@
           "id": 2
         }
       ],
-      "message": "eito dada",
-      "timestamp": 1679598135796,
+      "message": "hey",
+      "timestamp": 1679662907200,
       "id": 2
+    },
+    {
+      "participants": "susmoy.cse@gmail.com-gomodiwaq@mailinator.com",
+      "users": [
+        {
+          "email": "susmoy.cse@gmail.com",
+          "name": "Susmoy Sen Gupta",
+          "id": 4
+        },
+        {
+          "email": "gomodiwaq@mailinator.com",
+          "password": "$2a$10$cPuJjDRoPuklOo0YgZccaelOSWeepeH10BB3Rpxu7nLe826bnbkQm",
+          "name": "Cassidy Mcmillan",
+          "id": 11
+        }
+      ],
+      "message": "Hey\n",
+      "timestamp": 1679664614441,
+      "id": 3
+    },
+    {
+      "participants": "susmoy.cse@gmail.com-vibekoxi@mailinator.com",
+      "users": [
+        {
+          "email": "susmoy.cse@gmail.com",
+          "name": "Susmoy Sen Gupta",
+          "id": 4
+        },
+        {
+          "email": "vibekoxi@mailinator.com",
+          "password": "$2a$10$VbrLoWKsOhHXa2VAYHwikeBIDTXfoKOXD3sNH/NpMGqblPKA639EC",
+          "name": "Hope Kirby",
+          "id": 10
+        }
+      ],
+      "message": "test",
+      "timestamp": 1679671075603,
+      "id": 4
+    },
+    {
+      "participants": "susmoy.cse@gmail.com-cudajin@mailinator.com",
+      "users": [
+        {
+          "email": "susmoy.cse@gmail.com",
+          "name": "Susmoy Sen Gupta",
+          "id": 4
+        },
+        {
+          "email": "cudajin@mailinator.com",
+          "password": "$2a$10$1jKk4hjCAbncdkHc9lkexe5tr3XAOX/s8vkxDNd5Pa41GIfcTjL9u",
+          "name": "Brendan Silva",
+          "id": 9
+        }
+      ],
+      "message": "Hey\n",
+      "timestamp": 1679664632448,
+      "id": 5
+    },
+    {
+      "participants": "susmoy.cse@gmail.com-sajebo@mailinator.com",
+      "users": [
+        {
+          "email": "susmoy.cse@gmail.com",
+          "name": "Susmoy Sen Gupta",
+          "id": 4
+        },
+        {
+          "email": "sajebo@mailinator.com",
+          "password": "$2a$10$II3JfLRO9nr9vzKqR05tQu2MpY6RQzWNdRU6DVRg.oTw9NueGLApW",
+          "name": "Libby Kline",
+          "id": 8
+        }
+      ],
+      "message": "Hey\n",
+      "timestamp": 1679664641160,
+      "id": 6
+    },
+    {
+      "participants": "susmoy.cse@gmail.com-rufu@mailinator.com",
+      "users": [
+        {
+          "email": "susmoy.cse@gmail.com",
+          "name": "Susmoy Sen Gupta",
+          "id": 4
+        },
+        {
+          "email": "rufu@mailinator.com",
+          "password": "$2a$10$Ydg7GXumFCe4GpBE7jMlsuJHQUxhT26mMMM1oLA6t8NwKsHyralyq",
+          "name": "Brent Acevedo",
+          "id": 7
+        }
+      ],
+      "message": "Hey\n",
+      "timestamp": 1679664650256,
+      "id": 7
+    },
+    {
+      "participants": "susmoy.cse@gmail.com-ravyhorile@mailinator.com",
+      "users": [
+        {
+          "email": "susmoy.cse@gmail.com",
+          "name": "Susmoy Sen Gupta",
+          "id": 4
+        },
+        {
+          "email": "ravyhorile@mailinator.com",
+          "password": "$2a$10$vPVIREcQfBruBvYWlPLEnefaQrs9d6RM649naElb07fDhzAjmYlg6",
+          "name": "Katelyn Oliver",
+          "id": 6
+        }
+      ],
+      "message": "Hey\n",
+      "timestamp": 1679664658168,
+      "id": 8
+    },
+    {
+      "participants": "susmoy.cse@gmail.com-cysynigaju@mailinator.com",
+      "users": [
+        {
+          "email": "susmoy.cse@gmail.com",
+          "name": "Susmoy Sen Gupta",
+          "id": 4
+        },
+        {
+          "email": "cysynigaju@mailinator.com",
+          "password": "$2a$10$5vFIEVnDko6SeGHFXEcy/.SKUmJGsjwE2QgNdYkStbP3YQ9L2XwQi",
+          "name": "Ryder Goodwin",
+          "id": 5
+        }
+      ],
+      "message": "What's up?\n",
+      "timestamp": 1679665928522,
+      "id": 9
+    },
+    {
+      "participants": "susmoy.cse@gmail.com-fikil@mailinator.com",
+      "users": [
+        {
+          "email": "susmoy.cse@gmail.com",
+          "name": "Susmoy Sen Gupta",
+          "id": 4
+        },
+        {
+          "email": "fikil@mailinator.com",
+          "password": "$2a$10$Jd22CNW.Goy4OXH0Szd9ieqePcFeots0C0lvmgeSoRyvN23EOuLs6",
+          "name": "Justin Grimes",
+          "id": 12
+        }
+      ],
+      "message": "hey",
+      "timestamp": 1679671023867,
+      "id": 10
+    },
+    {
+      "participants": "susmoy.cse@gmail.com-lacog@mailinator.com",
+      "users": [
+        {
+          "email": "susmoy.cse@gmail.com",
+          "name": "Susmoy Sen Gupta",
+          "id": 4
+        },
+        {
+          "email": "lacog@mailinator.com",
+          "password": "$2a$10$4YWwlLZ3tBXbtLyzmybK1uUUvgREJfseCcEP2JabyYIBIDEkvI2kG",
+          "name": "Liberty Herring",
+          "id": 13
+        }
+      ],
+      "message": "hey\n",
+      "timestamp": 1679671033594,
+      "id": 11
+    },
+    {
+      "participants": "susmoy.cse@gmail.com-qumyzutub@mailinator.com",
+      "users": [
+        {
+          "email": "susmoy.cse@gmail.com",
+          "name": "Susmoy Sen Gupta",
+          "id": 4
+        },
+        {
+          "email": "qumyzutub@mailinator.com",
+          "password": "$2a$10$NbR6oS6/3BqeE0MCuX9Y5uv0NCBH2kPur/CYPvzT4Z0yL1bTf.6Wi",
+          "name": "Hadley Wiley",
+          "id": 16
+        }
+      ],
+      "message": "test",
+      "timestamp": 1679671137107,
+      "id": 12
+    },
+    {
+      "participants": "susmoy.cse@gmail.com-dezahit@mailinator.com",
+      "users": [
+        {
+          "email": "susmoy.cse@gmail.com",
+          "name": "Susmoy Sen Gupta",
+          "id": 4
+        },
+        {
+          "email": "dezahit@mailinator.com",
+          "password": "$2a$10$/k43cbNa6oFfIpcRLmBENeXRrkLS.bs1FUrhtah..WxUFijF9tlMm",
+          "name": "Keaton Oneill",
+          "id": 15
+        }
+      ],
+      "message": "test",
+      "timestamp": 1679671144955,
+      "id": 13
+    },
+    {
+      "participants": "susmoy.cse@gmail.com-cekahikoly@mailinator.com",
+      "users": [
+        {
+          "email": "susmoy.cse@gmail.com",
+          "name": "Susmoy Sen Gupta",
+          "id": 4
+        },
+        {
+          "email": "cekahikoly@mailinator.com",
+          "password": "$2a$10$dL7e9vofpoe2bU4OYuqi8OPlfexnDz2CAFIScekSdZpgbK.7gToSO",
+          "name": "Raphael Whitley",
+          "id": 14
+        }
+      ],
+      "message": "test",
+      "timestamp": 1679671150931,
+      "id": 14
     }
   ],
   "messages": [
@@ -592,6 +892,295 @@
       "message": "test",
       "timestamp": 1679662774240,
       "id": 31
+    },
+    {
+      "conversationId": 2,
+      "sender": {
+        "email": "susmoy.cse@gmail.com",
+        "name": "Susmoy Sen Gupta",
+        "id": 4
+      },
+      "receiver": {
+        "email": "akash@learnwithsumit.com",
+        "password": "$2a$10$0BUdqRScK5phj/72AwG4R.61aNDFrVT/WHuUpatLFzID3gwBeAx3.",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "message": "hey",
+      "timestamp": 1679662907200,
+      "id": 32
+    },
+    {
+      "conversationId": 3,
+      "sender": {
+        "email": "susmoy.cse@gmail.com",
+        "name": "Susmoy Sen Gupta",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gomodiwaq@mailinator.com",
+        "password": "$2a$10$cPuJjDRoPuklOo0YgZccaelOSWeepeH10BB3Rpxu7nLe826bnbkQm",
+        "name": "Cassidy Mcmillan",
+        "id": 11
+      },
+      "message": "Hey\n",
+      "timestamp": 1679664614441,
+      "id": 33
+    },
+    {
+      "conversationId": 4,
+      "sender": {
+        "email": "susmoy.cse@gmail.com",
+        "name": "Susmoy Sen Gupta",
+        "id": 4
+      },
+      "receiver": {
+        "email": "vibekoxi@mailinator.com",
+        "password": "$2a$10$VbrLoWKsOhHXa2VAYHwikeBIDTXfoKOXD3sNH/NpMGqblPKA639EC",
+        "name": "Hope Kirby",
+        "id": 10
+      },
+      "message": "Hey\n",
+      "timestamp": 1679664624921,
+      "id": 34
+    },
+    {
+      "conversationId": 5,
+      "sender": {
+        "email": "susmoy.cse@gmail.com",
+        "name": "Susmoy Sen Gupta",
+        "id": 4
+      },
+      "receiver": {
+        "email": "cudajin@mailinator.com",
+        "password": "$2a$10$1jKk4hjCAbncdkHc9lkexe5tr3XAOX/s8vkxDNd5Pa41GIfcTjL9u",
+        "name": "Brendan Silva",
+        "id": 9
+      },
+      "message": "Hey\n",
+      "timestamp": 1679664632448,
+      "id": 35
+    },
+    {
+      "conversationId": 6,
+      "sender": {
+        "email": "susmoy.cse@gmail.com",
+        "name": "Susmoy Sen Gupta",
+        "id": 4
+      },
+      "receiver": {
+        "email": "sajebo@mailinator.com",
+        "password": "$2a$10$II3JfLRO9nr9vzKqR05tQu2MpY6RQzWNdRU6DVRg.oTw9NueGLApW",
+        "name": "Libby Kline",
+        "id": 8
+      },
+      "message": "Hey\n",
+      "timestamp": 1679664641160,
+      "id": 36
+    },
+    {
+      "conversationId": 7,
+      "sender": {
+        "email": "susmoy.cse@gmail.com",
+        "name": "Susmoy Sen Gupta",
+        "id": 4
+      },
+      "receiver": {
+        "email": "rufu@mailinator.com",
+        "password": "$2a$10$Ydg7GXumFCe4GpBE7jMlsuJHQUxhT26mMMM1oLA6t8NwKsHyralyq",
+        "name": "Brent Acevedo",
+        "id": 7
+      },
+      "message": "Hey\n",
+      "timestamp": 1679664650256,
+      "id": 37
+    },
+    {
+      "conversationId": 8,
+      "sender": {
+        "email": "susmoy.cse@gmail.com",
+        "name": "Susmoy Sen Gupta",
+        "id": 4
+      },
+      "receiver": {
+        "email": "ravyhorile@mailinator.com",
+        "password": "$2a$10$vPVIREcQfBruBvYWlPLEnefaQrs9d6RM649naElb07fDhzAjmYlg6",
+        "name": "Katelyn Oliver",
+        "id": 6
+      },
+      "message": "Hey\n",
+      "timestamp": 1679664658168,
+      "id": 38
+    },
+    {
+      "conversationId": 9,
+      "sender": {
+        "email": "susmoy.cse@gmail.com",
+        "name": "Susmoy Sen Gupta",
+        "id": 4
+      },
+      "receiver": {
+        "email": "cysynigaju@mailinator.com",
+        "password": "$2a$10$5vFIEVnDko6SeGHFXEcy/.SKUmJGsjwE2QgNdYkStbP3YQ9L2XwQi",
+        "name": "Ryder Goodwin",
+        "id": 5
+      },
+      "message": "Hey\n",
+      "timestamp": 1679664668032,
+      "id": 39
+    },
+    {
+      "conversationId": 9,
+      "sender": {
+        "email": "susmoy.cse@gmail.com",
+        "name": "Susmoy Sen Gupta",
+        "id": 4
+      },
+      "receiver": {
+        "email": "cysynigaju@mailinator.com",
+        "password": "$2a$10$5vFIEVnDko6SeGHFXEcy/.SKUmJGsjwE2QgNdYkStbP3YQ9L2XwQi",
+        "name": "Ryder Goodwin",
+        "id": 5
+      },
+      "message": "hey",
+      "timestamp": 1679665830473,
+      "id": 40
+    },
+    {
+      "conversationId": 9,
+      "sender": {
+        "email": "susmoy.cse@gmail.com",
+        "name": "Susmoy Sen Gupta",
+        "id": 4
+      },
+      "receiver": {
+        "email": "cysynigaju@mailinator.com",
+        "password": "$2a$10$5vFIEVnDko6SeGHFXEcy/.SKUmJGsjwE2QgNdYkStbP3YQ9L2XwQi",
+        "name": "Ryder Goodwin",
+        "id": 5
+      },
+      "message": "hello",
+      "timestamp": 1679665901850,
+      "id": 41
+    },
+    {
+      "conversationId": 9,
+      "sender": {
+        "email": "susmoy.cse@gmail.com",
+        "name": "Susmoy Sen Gupta",
+        "id": 4
+      },
+      "receiver": {
+        "email": "cysynigaju@mailinator.com",
+        "password": "$2a$10$5vFIEVnDko6SeGHFXEcy/.SKUmJGsjwE2QgNdYkStbP3YQ9L2XwQi",
+        "name": "Ryder Goodwin",
+        "id": 5
+      },
+      "message": "What's up?\n",
+      "timestamp": 1679665928522,
+      "id": 42
+    },
+    {
+      "conversationId": 10,
+      "sender": {
+        "email": "susmoy.cse@gmail.com",
+        "name": "Susmoy Sen Gupta",
+        "id": 4
+      },
+      "receiver": {
+        "email": "fikil@mailinator.com",
+        "password": "$2a$10$Jd22CNW.Goy4OXH0Szd9ieqePcFeots0C0lvmgeSoRyvN23EOuLs6",
+        "name": "Justin Grimes",
+        "id": 12
+      },
+      "message": "hey",
+      "timestamp": 1679671023867,
+      "id": 43
+    },
+    {
+      "conversationId": 11,
+      "sender": {
+        "email": "susmoy.cse@gmail.com",
+        "name": "Susmoy Sen Gupta",
+        "id": 4
+      },
+      "receiver": {
+        "email": "lacog@mailinator.com",
+        "password": "$2a$10$4YWwlLZ3tBXbtLyzmybK1uUUvgREJfseCcEP2JabyYIBIDEkvI2kG",
+        "name": "Liberty Herring",
+        "id": 13
+      },
+      "message": "hey\n",
+      "timestamp": 1679671033594,
+      "id": 44
+    },
+    {
+      "conversationId": 4,
+      "sender": {
+        "email": "susmoy.cse@gmail.com",
+        "name": "Susmoy Sen Gupta",
+        "id": 4
+      },
+      "receiver": {
+        "email": "vibekoxi@mailinator.com",
+        "password": "$2a$10$VbrLoWKsOhHXa2VAYHwikeBIDTXfoKOXD3sNH/NpMGqblPKA639EC",
+        "name": "Hope Kirby",
+        "id": 10
+      },
+      "message": "test",
+      "timestamp": 1679671075603,
+      "id": 45
+    },
+    {
+      "conversationId": 12,
+      "sender": {
+        "email": "susmoy.cse@gmail.com",
+        "name": "Susmoy Sen Gupta",
+        "id": 4
+      },
+      "receiver": {
+        "email": "qumyzutub@mailinator.com",
+        "password": "$2a$10$NbR6oS6/3BqeE0MCuX9Y5uv0NCBH2kPur/CYPvzT4Z0yL1bTf.6Wi",
+        "name": "Hadley Wiley",
+        "id": 16
+      },
+      "message": "test",
+      "timestamp": 1679671137107,
+      "id": 46
+    },
+    {
+      "conversationId": 13,
+      "sender": {
+        "email": "susmoy.cse@gmail.com",
+        "name": "Susmoy Sen Gupta",
+        "id": 4
+      },
+      "receiver": {
+        "email": "dezahit@mailinator.com",
+        "password": "$2a$10$/k43cbNa6oFfIpcRLmBENeXRrkLS.bs1FUrhtah..WxUFijF9tlMm",
+        "name": "Keaton Oneill",
+        "id": 15
+      },
+      "message": "test",
+      "timestamp": 1679671144955,
+      "id": 47
+    },
+    {
+      "conversationId": 14,
+      "sender": {
+        "email": "susmoy.cse@gmail.com",
+        "name": "Susmoy Sen Gupta",
+        "id": 4
+      },
+      "receiver": {
+        "email": "cekahikoly@mailinator.com",
+        "password": "$2a$10$dL7e9vofpoe2bU4OYuqi8OPlfexnDz2CAFIScekSdZpgbK.7gToSO",
+        "name": "Raphael Whitley",
+        "id": 14
+      },
+      "message": "test",
+      "timestamp": 1679671150931,
+      "id": 48
     }
   ]
 }
